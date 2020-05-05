@@ -1,0 +1,137 @@
+<!doctype html>
+<html debug="true">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>CreateSet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body class="body page-index">
+<div id="preloader" style="width: 100%; text-align: center; margin-top: 5em">
+    <img src="img/ui/loader.gif" style="width: 3em; height: 3em">
+    <div>App is loading...</div>
+</div>
+<div id="appContainer" >
+    <div id="descContainer">
+    <span id="curItemDesc"></span>
+    <span id="totalPrice"> Create your set </span>
+    </div>
+    <div id="outerCanvCont" class="uiContainer">
+        <div id="canvasContainer">
+            <div id="canvas">
+                <div id="renderCanvas"></div>
+            </div>
+
+            <div id="handlers">
+                <div id="rotateHandler"></div>
+            </div>
+            <div id="currentControls">
+                <div class="controlsButton" id="reflect"><img src="img/icons_ui/ui_rf.svg"><span>Mirror</span></div>
+                <div class="controlsButton" id="moveUp"><img src="img/icons_ui/ui_up.svg"><span>Back</span></div>
+                <div class="controlsButton" id="moveDown"><img src="img/icons_ui/ui_down.svg"><span>Rorward</span></div>
+                <div class="controlsButton" id="remove"><img src="img/icons_ui/ui_del.svg"><span>Delete</span></div>
+            </div>
+        </div>
+
+        <div id="controlsContainer" class="uiContainer">
+            <div class="controlsButton" id="undo"><img src="img/icons_ui/ui_undo.svg"><span>Undo</span></div>
+            <div class="controlsButton" id="redo"><img src="img/icons_ui/ui_redo.svg"><span>Redo</span></div>
+            <!--<div class="controlsButton" id="toggleRot"><img src="img/icons_ui/ui_rot.svg"></div>
+            <div class="controlsButton" id="toggleMove"><img src="img/icons_ui/ui_mov.svg"></div>-->
+            <div class="controlsButton" id="fullscr"><img src="img/icons_ui/ui_scu.svg"><span>Fullscreen</span></div>
+            <div class="controlsButton" id="saveset"><img src="img/icons_ui/ui_save.svg"><span>Save set</span></div>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="searchContainer" class="uiContainer">
+        <div id="searchsubmit"><img src="img/icons_ui/search.svg"></div>
+        <div id="searchLineCont"><input type="search" name="searchInput" placeholder="Search" class="searchLine"></div>
+        <div id="searchButtons"></div>
+    </div>
+
+</div>
+
+<div id="itempageContainer" style="display: none">
+
+    <div id="itempageTrimmer">
+        <div id="itemPage">
+
+        </div>
+    </div>
+    <div id="pageMenu">
+        <div class="controlsButton" id="close"><img src="img/icons_ui/ui_down_2.svg"></div>
+        <select id="subcategory">
+            <option disabled selected value="">subcategory</option>
+
+        </select>
+        <select id="brand">
+            <option disabled selected value="">brand</option>
+
+        </select>
+        <select id="color">
+            <option disabled selected value="">color</option>
+
+        </select>
+        <select id="price">
+            <option disabled selected value="">price</option>
+
+        </select>
+    </div>
+    <div id="itemDesc">
+        <div id="itemDescPicture">
+            <div class="productPic"></div>
+            <div class="productDesc"></div>
+            <button id="addItem">Add Item</button>
+            <div class="closeCross" ></div>
+        </div>
+    </div>
+</div>
+
+<div id="saveSetWindow" style="display: none">
+    <div class="fullBg"></div>
+    <div class="saveForm">
+        <div class="ui form">
+            <div class="field">
+                <label>Set Name</label>
+                <input type="text" name="set-name" id="set-name" placeholder=" My new set">
+            </div>
+            <div class="field">
+                <label>Set description</label>
+                <textarea type="text" rows="3" name="set-desc" id="set-desc" placeholder=""></textarea>
+            </div>
+            <div class="field">
+                <label for="contest">Contest</label>
+                <select id="contest">
+                    <option disabled selected value="">None</option>
+                </select>
+            </div>
+            <button class="ui button" id="submitSet" >Submit</button>
+
+        </div>
+        <div class="loadingScreen totallyHidden">
+            <img src="img/ui/loader.gif" alt="">
+            <span>Loading...</span>
+        </div>
+        <div class="savedInfo totallyHidden">
+            <img class="setThumb" src=""/>
+            <span class="linkOne"> set is avalable by <a class="setLink" href="?set=">this</a> link</span>
+            <span class="linkTwo"> set is avalable by <a class="setLink" href="?hash=">this</a> anonymus link</span>
+            <!--<div class="closeCross"></div>-->
+        </div>
+        <div class="closeCross" id="closeSaveWindow"></div>
+    </div>
+</div>
+
+<div id="tracer"></div>
+<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+<script src="js/libs.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

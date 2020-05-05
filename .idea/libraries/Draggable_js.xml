@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Draggable.js" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/_SRC/js/src/uncompressed/utils/Draggable.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_SRC/js/src/uncompressed/utils/Draggable.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 3.0.2.3-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   stroke-width="0.501"
+   stroke-linejoin="bevel"
+   fill-rule="evenodd"
+   version="1.1"
+   overflow="visible"
+   width="192pt"
+   height="192pt"
+   viewBox="0 0 192 192"
+   id="svg3336"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ui_down_2.svg">
+  <metadata
+     id="metadata3424">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1840"
+     inkscape:window-height="1060"
+     id="namedview3422"
+     showgrid="false"
+     inkscape:zoom="3.725"
+     inkscape:cx="120"
+     inkscape:cy="130.73826"
+     inkscape:window-x="-5"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3336" />
+  <defs
+     id="defs3338" />
+  <g
+     id="Document"
+     fill="none"
+     stroke="black"
+     font-family="Times New Roman"
+     font-size="16"
+     transform="scale(1 -1)">
+    <g
+       id="Spread"
+       transform="translate(0 -192)">
+      <g
+         id="Layer 5">
+        <path
+           d="M 105.217,64.718 L 147.646,105.997 C 153.202,111.403 153.323,120.302 147.917,125.857 C 142.512,131.413 133.612,131.536 128.057,126.127 L 95.697,94.648 L 64.217,127.011 C 58.809,132.564 49.915,132.687 44.357,127.282 C 38.799,121.879 38.678,112.979 44.081,107.421 L 85.357,64.989 C 86.032,64.295 86.765,63.688 87.534,63.166 L 85.357,64.989 C 90.765,59.436 99.661,59.313 105.217,64.718 Z"
+           stroke-width="0.5"
+           stroke="none"
+           fill="#7f7f7f"
+           fill-rule="evenodd"
+           marker-start="none"
+           marker-end="none"
+           stroke-miterlimit="79.8403193612775"
+           id="path3420" />
+      </g>
+    </g>
+  </g>
+</svg>

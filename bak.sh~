@@ -1,0 +1,2 @@
+#! bin/bash
+cp -avr /var/www/html/app /media/psyanim/Psyanim/WAMP/www
